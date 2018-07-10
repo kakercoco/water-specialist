@@ -368,16 +368,16 @@
 			<div class="hot-company clearfix">
 				<div class="main-title2">
 					<ul>
-						<li class="active">
+						<li class="active" onclick="changeCompany(1,this)">
 							<span>推荐企业</span>|
 						</li>
-						<li>
+						<li onclick="changeCompany(2,this)">
 							<span>推荐企业</span>
 						</li>
 					</ul>
 					<a href="" class="fr">更多＋</a>
 				</div>
-				<ul class="brand-ul">
+				<ul class="brand-ul brand-ul-1">
 					<li>
 						<img src="images/mark/brand.jpg"/>
 						<h6>清体黄金公司</h6>
@@ -518,6 +518,9 @@
 							<p><a href="">------查看详情------</a></p>
 						</div>
 					</li>
+				</ul>
+				<ul class="brand-ul brand-ul-2" style="display: none;">
+					<li>6565</li>
 				</ul>
 			</div>
 			
@@ -791,18 +794,6 @@
 			</div>
 		</div>
 		
-		<script type="text/javascript">
-			$(function(){
-				$('.main-title2 li').click(function(){
-					$(this).parent().find('li').removeClass('active')
-					$(this).addClass('active')
-				})
-				$('.hot-produce-left .right li').click(function(){
-					console.log($(this).next())
-					$(this).parent().find('div').hide()
-					$(this).next().show()
-				})
-			})
-		</script>
+		<script type="text/javascript" src="js/mian.js"></script>
 	</body>
 </html>

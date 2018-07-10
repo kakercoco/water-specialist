@@ -92,6 +92,9 @@ html {
 	width: 1200px;
 	margin: 0 auto;
 }
+.c-fff{
+	color: #fff;
+}
 .top{
 	height: 35px;
     line-height: 35px;
