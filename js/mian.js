@@ -23,3 +23,7 @@ function changeCompany(val, e) {
 	selected = '.brand-ul-' + val
 	$(selected).show()
 }
+$('.show-more').click(function(){
+	$(this).prev().css('height','auto')
+	$(this).hide()
+})
