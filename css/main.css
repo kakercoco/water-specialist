@@ -1905,3 +1905,62 @@
 .product-content{
 	margin-top: 20px;
 }
+.produce-list-right .content >p span{
+	height: 65px;
+}
+.produce-list-right .content >p a{
+	float: right;
+	width: 120px;
+	height: 20px;
+	color: #999;
+	overflow: hidden;
+	text-align: right;
+	margin-top: 5px;
+}
+.produce-list-right .img-list li i{
+	padding: 0;
+}
+.produce-list-right .img-list li img{
+	width: 100%;
+	height: 100%;
+}
+
+.produce-list-right  .news-img img{
+	height: 205px;
+}
+.produce-list-right  .news-img:last-child img{
+	height: 205px;
+	margin-top: 17px;
+}
+
+
+.produce-list-ul li >div:first-child{
+	padding: 5px;
+}
+
+.produce-list-ul li >div:first-child img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
