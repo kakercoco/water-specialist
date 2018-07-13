@@ -53,3 +53,7 @@ $('.company-detail-img-left li img').click(function(e){
  	$('.case-infor-left .produce ul').hide()
  	$('.case-infor-left .produce').find(ul).show()
  }
+$('.case-infor-right .title span').click(function(){
+	$(this).parent().children().removeClass("active")
+	$(this).addClass('active')
+})

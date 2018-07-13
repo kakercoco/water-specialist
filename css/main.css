@@ -1020,7 +1020,6 @@
 }
 .company-detail-img-right>h4{
 	font-size: 15px;
-	height: 25px;
 	line-height: 25px;
 }
 .company-detail-img-right>h4 small{
@@ -1942,15 +1941,44 @@
 	width: 100%;
 	height: 100%;
 }
+.case-introduce .left .company-detail-img-right{
+	width: 590px;
+}
 
+.case-introduce .left .company-detail-img-right>h4{
+	line-height: 30px;
+}
+.case-infor-right .title{
+	height: 30px;
+	border: 1px solid #eee;
+	background-color: #f7f7f7;
+	border-bottom-color:#0F51B2 ;
+	position: relative;
+}
+.case-infor-right .title span{
+	float: left;
+	height: 100%;
+	line-height: 30px;
+	padding: 0 15px;
+	font-size: 17px;
+	cursor: pointer;
+}
 
+.case-infor-right .title span.active{
+	background-color: #0F51B2;
+	color: #fff;
+}
 
-
-
-
-
-
-
+.case-infor-right .title:before{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 8px;
+	left: 0;
+	width: 3px;
+	height: 15px;
+	background-color: #fff;
+}
 
 
 
